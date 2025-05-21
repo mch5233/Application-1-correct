@@ -1,7 +1,11 @@
 # Application-1-correct
 Mya Camacho-Hill
 5142879
+Link to Wokwi: https://wokwi.com/projects/431534312632120321
+I did use AI for my code. I commented in my actual code where it was used and what it was used for. I mainly used it to come up with an idea of what I should print to represent the thermatic I chose. As well as give me a general idea of what should be filled into the blanks of the code given. 
+
 For my code I chose the Healthcare thermatics. For my code I used the LED to indicate a heartbeat sort of like an EKG system. Then I used the message to indicate vitals along with the time stamp they were taken. 
+
 Vary Priorities: Change the print task’s priority to 2 (higher than blink’s 1). With such short tasks and delays, you may not notice a big difference, but in principle the print task would preempt the blink task if it were ready. Given both tasks spend most time sleeping, the effect is minimal. In later projects with CPU-bound tasks, priority will matter more. Does anything happen to the LED if you increase the delay within the print task? What if you increase the number of characters printed?
 When I change the prioriy of the vitals task to a 2 initially I did not notice a difference. Since it was printing quickly in my terminal it was hard to notice a difference. When i increased the delay time within the print task the LED still continued to blink following its print task as well as indicating that in my serial monitor. Even when I extend the number of characters it still continues to follow the 250 ms delay. 
 
